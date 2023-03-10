@@ -11,8 +11,13 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "eslint": "^8.35.0",
     "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "prettier": "2.8.4"
   }
