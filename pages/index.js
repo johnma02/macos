@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import preview from "../public/images/preview.png";
 export default function Home() {
     return (
         <div className={styles.container}>
@@ -16,7 +17,7 @@ export default function Home() {
 
                 <div className={styles.card}>
                     <Image
-                        src="/images/preview.png"
+                        src={preview}
                         width={853}
                         height={533}
                         alt="preview"
