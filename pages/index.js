@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		 <div className={styles.container}>
 			<Head>
 				<title>My MacOS Setup</title>
 				<link rel="icon" href="/favicon.ico" />
