@@ -88,3 +88,15 @@
         flex-direction: column;
     }
 }
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-list li {
+    padding: 8px;
+}

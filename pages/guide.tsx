@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-
-export default function guide() {
+//import Link from "next/link"
+import Sidebar from "../components/Sidebar";
+function Guide(): JSX.Element {
     return (
         <div className={styles.container}>
             <Head>
@@ -13,7 +14,11 @@ export default function guide() {
                 <h1 className={styles.title}>
                     How to Become a MacOS Power User
                 </h1>
+                {/* TODO: grab items using header tags, then pass them into the sidebar component
+                <Sidebar navItems={}></Sidebar>
+                */}
             </main>
         </div>
     );
 }
+export default Guide;

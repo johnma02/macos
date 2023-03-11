@@ -3,8 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import preview from "../public/images/preview.png";
-export default function Home() {
+function Home(): JSX.Element {
     return (
         <div className={styles.container}>
             <Head>
@@ -17,7 +16,7 @@ export default function Home() {
 
                 <div className={styles.card}>
                     <Image
-                        src={preview}
+                        src="/images/preview.png"
                         width={853}
                         height={533}
                         alt="preview"
@@ -56,3 +55,4 @@ export default function Home() {
         </div>
     );
 }
+export default Home;
