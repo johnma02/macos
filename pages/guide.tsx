@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Head from "next/head";
 //import Link from "next/link"
 import Sidebar from "../components/Sidebar";
+
 function Guide(): JSX.Element {
     return (
         <div className={styles.container}>
@@ -14,9 +15,8 @@ function Guide(): JSX.Element {
                 <h1 className={styles.title}>
                     How to Become a MacOS Power User
                 </h1>
-                {/* TODO: grab items using header tags, then pass them into the sidebar component
-                <Sidebar navItems={}></Sidebar>
-                */}
+                {/* TODO: grab items using header tags, then pass them into the sidebar component*/}
+                <Sidebar navItems={["hello", "world"]}></Sidebar>
             </main>
         </div>
     );
