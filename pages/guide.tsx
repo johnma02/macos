@@ -17,6 +17,12 @@ function Guide(): JSX.Element {
                 </h1>
                 {/* TODO: grab items using header tags, then pass them into the sidebar component*/}
                 <Sidebar navItems={["hello", "world"]}></Sidebar>
+                {/* Outline:
+                    Installing Homebrew
+                    Installing Raycast
+                    Installing yabai, skhd, spaceid
+                    Installing MacOS Sensors 
+                */}
             </main>
         </div>
     );
